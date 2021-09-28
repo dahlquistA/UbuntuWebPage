@@ -31,7 +31,7 @@ html{
 
 /*Estilos de la barra de navegacion*/
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: rgba(128, 185, 242, 1);
+    color: rgba(0,72,144,255);
 }
 .bg-dark {
     background: rgba(9,13,40,255) !important;
@@ -134,7 +134,7 @@ footer {
     color: rgb(255, 255, 255, 0.61);    
 }
 .navbar-brand:hover{
-    color: rgba(128, 185, 242, 1);
+    color: rgba(0,72,144,255);
 }
 
 /*Estilo de los links del footer*/
