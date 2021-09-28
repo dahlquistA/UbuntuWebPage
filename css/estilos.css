@@ -31,7 +31,7 @@ html{
 
 /*Estilos de la barra de navegacion*/
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: rgba(0,72,144,255);
+    color: rgba(0,114,229,1);
 }
 .bg-dark {
     background: rgba(9,13,40,255) !important;
@@ -120,7 +120,7 @@ html{
 
 
 footer {
-    background: rgba(0,0,0,.9) !important;
+    background: rgba(9,13,40,255) !important;
     
 }
 
@@ -129,7 +129,7 @@ footer {
     color: #44484c;
 }
 
-/*Estilos de Arana&Hijos del footer*/
+/*Estilos de UbuntuCervezasArtesanales del footer*/
 .navbar-brand {
     color: rgb(255, 255, 255, 0.61);    
 }
