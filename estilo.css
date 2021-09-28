@@ -25,7 +25,8 @@ p{
 
 .navbarPalabra:hover, .navbarPalabra:focus {
     color: rgba(77, 166, 255); 
-    appearance: none;
+    text-decoration: none;
+    
     
 
 }
