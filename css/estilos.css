@@ -40,7 +40,7 @@ html{
 
 /*Estilo del header*/
 .fondo {
-    background-image: url('imagenes/');
+    background-image: url('imagenes/banner.png');
     height: 35vh;
     background-size: cover;
     background-position: center;
