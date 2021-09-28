@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;/*/
-    
+    /*box-sizing: border-box;/*/    
     
 }
 
@@ -14,19 +13,23 @@ body {
 }
 
 p{
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
+/*---- Estilos de la barra de navegacion ----*/
 .navbar {
     position: sticky;
     background: rgba(9,13,40,255);
-
 }
 
 .navbarPalabra:hover, .navbarPalabra:focus {
     color: rgba(77, 166, 255); 
     text-decoration: none;
-    
-    
-
 }
+
+.img-responsive{
+    width: 30px;
+    height: 30px;
+}
+
+/*------------------------------------------*/
