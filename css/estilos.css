@@ -316,7 +316,7 @@ body {
 }
 
 .banner {
-    background-image: url('../img/banner.jpg');
+    background-image: url('../banner.png');
     height: 20vh;
     background-size: cover;
     background-position: center;
