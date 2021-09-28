@@ -31,7 +31,7 @@ html{
 
 /*Estilos de la barra de navegacion*/
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: rgba(86, 255, 147, 0.9);
+    color: rgba(0,72,144,255);
 }
 .bg-dark {
     background: rgba(9,13,40,255) !important;
