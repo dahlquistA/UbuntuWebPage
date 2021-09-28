@@ -16,3 +16,16 @@ body {
 p{
     padding: 10px;
 }
+
+.navbar {
+    position: sticky;
+    background: rgba(9,13,40,255);
+
+}
+
+.navbarPalabra:hover, .navbarPalabra:focus {
+    color: rgba(77, 166, 255); 
+    appearance: none;
+    
+
+}
