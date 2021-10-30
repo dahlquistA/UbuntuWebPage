@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;/*/ 
+    box-sizing: border-box;
 }
 
+/*Para que todos los navegadores reconozcan las etiquetas*/
 header, section, nav, footer, div, aside {
     display: block;
 }
 
 body {
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-family: sans-serif;   
 }
 
+/* Color del Fondo completo*/
 .agrupar{
     background-image: linear-gradient(120deg, #48c6ef 0%, rgb(91, 121, 230) 100%);
     position: relative;
@@ -21,40 +23,81 @@ body {
 /*---- Estilos de la barra de navegacion ----*/
 nav {    
     background: rgba(9,13,40,255);
-    position: -webkit-sticky;
+    height: 50px;
     position: sticky;
-    top: 0px;       
+    top: 0px; 
+    width: 100%;         
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_link {
+    color: #e9ecef7d ;
+    text-decoration: none;
+    width: max-content;
+}
+
+.logo {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.img-responsive{
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0px 5px;
+}
+
+.menu_1, .menu_2 {
+    display: flex;
+    margin-right: 20px;
+    line-height: 50px;
+
+}
+
+
+
+/*
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    display:inline-flex;
     
 }
 
-ul > li {
-    display: inline;
-    margin-right: 2rem;
+nav ul li a {
+    text-decoration: none;
+    color: #e9ecef7d;
+    display: block;
+    padding: 10px 10px;
 }
 
-.nav-1{
+nav .menu_1{
     align-items: flex-start;
 }
 
-.nav-2{
+nav .meny_2{
+    align-items: flex-end;
     justify-content: flex-end;
 }
 
-.navEnlaces {
-    color: #e9ecef7d;
-    list-style-type: none;     
-}
 
-.navbar > a:hover, .navbar > ul > li > a:hover, .navbar > ul > li > a:focus {
+
+nav > a:hover, nav > ul > li > a:hover, nav > ul > li > a:focus {
     color: rgba(77, 166, 255); 
     text-decoration: none;    
 }
-
+*/
 /*Logo de la barra de navegacion*/
-.img-responsive{
-    width: 50px;
-    height: 50px;      
-}
+
 
 /*Boton de la barra de navegacion*/
 .boton {
