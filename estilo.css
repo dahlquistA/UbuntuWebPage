@@ -25,43 +25,124 @@ nav {
     background: rgba(9,13,40,255);
     height: 50px;
     position: sticky;
-    top: 0px; 
-    width: 100%;         
+    top: 0px;         
     margin: auto;
 }
 
-.menu {
+.menu { /*.nav*/
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
-.menu_link {
+/*Estilo de todas los enlaces del menu*/
+.nav_link {
     color: #e9ecef7d ;
-    text-decoration: none;
-    width: max-content;
+    text-decoration: none;    
 }
 
-.logo {
-    display: flex;
-    font-size: 1.3rem;
-    font-weight: bold;
-    line-height: 50px;
-}
-
-.img-responsive{
-    width: 30px;
-    height: 30px;
-    margin: 5px 5px 0px 5px;
-}
-
-.menu_1, .menu_2 {
+.menu_1, .menu_2, .logo { /*nav-menu*/
     display: flex;
     margin-right: 20px;
     line-height: 50px;
+    list-style: none;
+}
+
+.menu_1_item, .menu_2_item {/*nav-menu-item*/
+    margin: 0 10px;
+    line-height: 50px;
+    width: max-content;
 
 }
 
+.logo-link {
+    font-weight: bold;    
+}
 
+/*Estilo de la imagen del logo que se encuentra en la barra de navegacion*/
+.img-logo{
+    width: 30px;
+    margin: 8px 5px 0px 5px;
+}
+
+.menu_link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.menu_link:hover{
+    background-color:cornflowerblue;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+
+}
+
+@media (max-width: 768px){
+    body {    
+       padding-top: 0px;
+    }
+
+    nav {    
+        height: 40px;
+    }    
+
+    .menu_1, .menu_2 { /*nav-menu*/
+        flex-direction: column;
+        font-size: 0.7rem;
+        background-color:black; 
+        align-items: center;
+        position: fixed;
+        left: 0;
+        top: 40px;
+        width: 100%;
+        padding: 5px 0;
+    
+    }
+
+    
+    .menu_1_item, .menu_2_item {/*nav-menu-item*/
+        line-height: 40px;
+        width: max-content;
+        
+    }
+    
+    .logo {
+        font-size: 0.7rem;  
+        line-height: 40px;
+    }
+
+    .logo-link{
+        margin-top: 3px;
+    }
+    
+    /*Estilo de la imagen del logo que se encuentra en la barra de navegacion*/
+    .img-logo{
+        width: 30px;
+        padding-bottom: 6px;
+        
+    }
+    
+    .menu_link {
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+    
+    .menu_link:hover{
+        background-color:cornflowerblue;
+        color: black;
+        transition: 0.5s;
+    }
+}
 
 /*
 nav ul {
