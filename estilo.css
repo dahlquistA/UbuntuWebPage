@@ -142,7 +142,28 @@ nav {
         color: black;
         transition: 0.5s;
     }
+
+    .banner {
+        display: none;
+
+    }
+
+
 }
+
+.banner {
+    background-image: url('../imagenes/android-chrome-512x512.png');
+    height: 25vh;
+    background-size: inherit;
+    background-position: center;
+}
+
+.banner h1 {
+    color: #fcfcf6;
+    text-shadow:  3px 2px 4px black;
+    text-align: center;
+}
+
 
 /*
 nav ul {
