@@ -9,8 +9,7 @@ header, section, nav, footer, div, aside {
     display: block;
 }
 
-body {
-    
+body {    
     font-size: 1rem;
     font-family: sans-serif;   
 }
