@@ -189,7 +189,7 @@ nav > a:hover, nav > ul > li > a:hover, nav > ul > li > a:focus {
 
 
 /*----------------------------------------------------------------*/
->>>>>>> 6cee5ce76e976cb37b2a9096c1a72bf3787ea41c
+
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
@@ -228,22 +228,13 @@ html{
 
 
 /*Estilo del header*/
-.fondo {
-    background-image: url('../imagenes/android-chrome-512x512.png');
-    height: 35vh;
-    background-size: inherit;
-    background-position: center;
-}
+
 
 
 .centrar{
     margin: auto;
 }
-.fondo h1 {
-    color: #fcfcf6;
-    text-shadow:  3px 2px 4px black;
-    text-align:right;
-}
+
 
 
 /*Tamaño de letra del titulo y subtitulo del header*/
